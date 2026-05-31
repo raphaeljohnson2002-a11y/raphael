@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Portal | Alive Educational Complex</title>
+
+    <link rel="stylesheet" href="/html/school website/myschool.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="portal-page">
+
+    <!-- ==========================
+         HEADER
+    =========================== -->
+
+    <header class="portal-header">
+
+        <h1>Alive Educational Complex</h1>
+
+        <p>Student & Parent Information Portal</p>
+
+    </header>
+
+    <!-- ==========================
+         SEARCH SECTION
+    =========================== -->
+
+    <section class="search-section">
+
+        <div class="search-card">
+
+            <h2>Search Student Record</h2>
+
+            <input
+                type="text"
+                id="studentSearch"
+                placeholder="Enter Student ID or Name">
+
+            <button onclick="searchStudent()">
+
+                Search
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         STUDENT INFORMATION
+    =========================== -->
+
+    <section id="studentProfile" class="portal-card">
+
+        <h2>Student Profile</h2>
+
+        <div class="profile-grid">
+
+            <p><strong>Name:</strong> </p>
+
+            <p><strong>Student ID:</strong> </p>
+
+            <p><strong>Class:</strong> </p>
+
+            <p><strong>House:</strong> </p>
+
+            <p><strong>Gender:</strong> </p>
+
+            <p><strong>Status:</strong> </p>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         RESULTS
+    =========================== -->
+
+    <section class="portal-card">
+
+        <h2>Results Intepretation</h2>
+
+        <table>
+
+            <tr>
+                <th>Marks</th>
+                <th>Grade</th>
+                <th>Remarks</th>
+            </tr>
+
+            <tr>
+                <td>80-100</td>
+                <td>A</td>
+                <td>Excellent</td>
+            </tr>
+
+            <tr>
+                <td>70-79</td>
+                <td>B+</td>
+                <td>Very Good</td>
+            </tr>
+
+            <tr>
+                <td>60-69</td>
+                <td>B</td>
+                <td>Good</td>
+            </tr>
+
+            <tr>
+                <td>50-59</td>
+                <td>C</td>
+                <td>Credit</td>
+            </tr>
+            <tr>
+                <td>40-49</td>
+                <td>D</td>
+                <td>satisfactory</td>
+            </tr>
+            <tr>
+                <td>30-39</td>
+                <td>E</td>
+                <td>Unsatisfactory</td>
+            </tr>
+            <tr>
+                <td>0-39</td>
+                <td>F</td>
+                <td>Should sit up</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <!-- ==========================
+         FEES
+    =========================== -->
+
+    <section class="portal-card">
+
+        <h2>School Fees</h2>
+
+        <div class="fees-grid">
+
+            <div class="fee-box">
+
+                <h3>Total Fees</h3>
+
+                <p>GH₵ 5,000</p>
+
+            </div>
+
+            <div class="fee-box">
+
+                <h3>Amount Paid</h3>
+
+                <p></p>
+
+            </div>
+
+            <div class="fee-box">
+
+                <h3>Balance</h3>
+
+                <p></p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         ANNOUNCEMENTS
+    =========================== -->
+
+    <section class="portal-card">
+
+        <h2>Announcements</h2>
+
+        <ul class="announcement-list">
+
+            <li>
+                Midterm examinations begin next week.
+            </li>
+
+            <li>
+                PTA meeting scheduled for Friday.
+            </li>
+
+            <li>
+                Science Fair registration is now open.
+            </li>
+
+        </ul>
+
+    </section>
+
+    <!-- ==========================
+         UPCOMING EVENTS
+    =========================== -->
+
+    <section class="portal-card">
+
+        <h2>Upcoming Games & Events</h2>
+
+        <div class="event-box">
+
+            <h3>Inter-House Sports</h3>
+
+            <p>15 June 2026</p>
+
+        </div>
+
+        <div class="event-box">
+
+            <h3>Football Tournament</h3>
+
+            <p>20 June 2026</p>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         FOOTER
+    =========================== -->
+
+    <footer class="modern-footer">
+
+    <div class="footer-content">
+
+        <div class="footer-section">
+
+            <h2>Alive Educational Complex</h2>
+
+            <p> Alive with Dignity.
+                Inspiring excellence, leadership,
+                innovation, and lifelong learning.
+            </p>
+
+        </div>
+
+        <div class="footer-section">
+
+            <h3>Quick Links</h3>
+
+           <div class="footer-section">
+    <div class="footer-tabs">
+
+        <a href="index.html">Home</a>
+
+        <a href="about.html">About</a>
+
+        <a href="gallery.html">Gallery</a>
+
+        <a href="admissions.html">Admissions</a>
+
+        <a href="contactus.html">Contact</a>
+
+    </div>
+
+</div>
+
+        </div>
+
+        <div class="footer-section">
+
+            <h3>Contact Us</h3>
+
+            <p>📍 Accra, Ghana</p>
+
+            <p>📧 info@alivecomplexeducation.com</p>
+
+            <p>📞 +233 595 710871</p>
+
+        </div>
+
+        <div class="footer-section">
+
+            <h3>Follow Us</h3>
+
+           <div class="social-icons">
+
+    <a href="#">
+        <i class="fa-brands fa-facebook-f"></i>
+    </a>
+
+    <a href="#">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <a href="#">
+        <i class="fa-brands fa-x-twitter"></i>
+    </a>
+
+    <a href="#">
+        <i class="fa-brands fa-youtube"></i>
+    </a>
+
+    <a href="#">
+        <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+
+</div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Alive Educational Complex.
+            All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+    <script src="/html/school website/portal.js"></script>
+
+</body>
+
+</html>

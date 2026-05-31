@@ -1,0 +1,1507 @@
+
+
+
+h1 {
+    font-size: 50px;
+    font-family: Georgia, serif;
+    text-align:center;
+}
+
+h5 {
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    text-align:center;
+    color: #555;
+}
+
+h2 { text-align: center; }
+title { text-align: center;}
+
+link-tabs {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.apply-btn {
+
+    display: inline-block;
+
+    background: #0A4D9C;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 15px 35px;
+
+    border-radius: 30px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    transition: 0.3s ease;
+}
+
+.apply-btn:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 10px 20px rgba(10,77,156,0.3);
+}
+
+/* ===================================
+   PORTAL PAGE
+=================================== */
+
+/* ===================================
+   FOOTER QUICK LINK TABS
+=================================== */
+
+.footer-tabs {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    margin-top: 15px;
+}
+
+.footer-tabs a {
+
+    text-decoration: none;
+
+    color: white;
+
+    padding: 10px 18px;
+
+    border-radius: 25px;
+
+    background:
+        rgba(255,255,255,0.12);
+
+    backdrop-filter: blur(8px);
+
+    transition: all 0.3s ease;
+}
+
+.footer-tabs a:hover {
+
+    background: white;
+
+    color: #0A4D9C;
+
+    transform: translateY(-3px);
+}
+
+.portal-page {
+
+    background-image:
+        linear-gradient(
+            rgba(255,255,255,0.90),
+            rgba(255,255,255,0.90)
+        ),
+        url("../school\ website/img/pexels-andreea-ch-371539-1166644.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+    min-height: 100vh;
+}
+
+/* HEADER */
+
+.portal-header {
+
+    text-align: center;
+
+    padding: 50px 20px;
+
+    color: #0A4D9C;
+}
+
+/* SEARCH */
+
+.search-section {
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-bottom: 40px;
+}
+
+.search-card {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 30px;
+
+    width: 500px;
+
+    text-align: center;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.15);
+}
+
+.search-card input {
+
+    width: 90%;
+
+    padding: 15px;
+
+    margin-top: 15px;
+
+    border-radius: 15px;
+
+    border: 1px solid #ccc;
+}
+
+.search-card button {
+
+    margin-top: 15px;
+
+    padding: 12px 30px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    background: #0A4D9C;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+/* CARDS */
+
+.portal-card {
+
+    width: 90%;
+
+    max-width: 1200px;
+
+    margin: 30px auto;
+
+    background: white;
+
+    border-radius: 30px;
+
+    padding: 30px;
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,0.12);
+}
+
+.portal-card h2 {
+
+    color: #0A4D9C;
+}
+
+/* PROFILE */
+
+.profile-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit,minmax(250px,1fr));
+
+    gap: 15px;
+}
+
+/* RESULTS TABLE */
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+
+    border: 1px solid #ddd;
+
+    padding: 12px;
+
+    text-align: center;
+}
+
+table th {
+
+    background: #0A4D9C;
+
+    color: white;
+}
+
+/* FEES */
+
+.fees-grid {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.fee-box {
+
+    flex: 1;
+
+    min-width: 200px;
+
+    text-align: center;
+
+    padding: 20px;
+
+    border-radius: 20px;
+
+    background: #f5f8ff;
+}
+
+/* EVENTS */
+
+.event-box {
+
+    background: #f5f8ff;
+
+    padding: 20px;
+
+    margin-bottom: 15px;
+
+    border-radius: 20px;
+}
+
+/* ===================================
+   LOGIN PAGE
+=================================== */
+
+.login-page {
+
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.35),
+            rgba(0,0,0,0.35)
+        ),
+        url("../school\ website/img/pexels-andreea-ch-371539-1166644.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+    height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.login-card {
+
+    width: 400px;
+
+    padding: 40px;
+
+    border-radius: 35px;
+
+    background:
+        rgba(255,255,255,0.15);
+
+    backdrop-filter: blur(15px);
+
+    text-align: center;
+
+    box-shadow:
+        0 15px 40px rgba(0,0,0,0.25);
+}
+
+.login-card h1 {
+
+    color: white;
+
+    margin-bottom: 10px;
+}
+
+.login-card p {
+
+    color: white;
+
+    margin-bottom: 25px;
+}
+
+.login-card input {
+
+    width: 100%;
+
+    padding: 15px;
+
+    margin-bottom: 20px;
+
+    border: none;
+
+    border-radius: 15px;
+
+    box-sizing: border-box;
+}
+
+.password-box {
+
+    position: relative;
+}
+
+.password-box button {
+
+    position: absolute;
+
+    right: 10px;
+
+    top: 8px;
+
+    background: none;
+
+    border: none;
+
+    cursor: pointer;
+
+    font-size: 18px;
+}
+
+.login-btn {
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    background: #0A4D9C;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 10px 20px rgba(10,77,156,0.4);
+}
+
+.login-links {
+
+    margin-top: 20px;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.login-links a {
+
+    color: white;
+
+    text-decoration: none;
+}
+
+#message {
+
+    margin-top: 15px;
+
+    color: blue;
+}
+
+/* ===================================
+   HOMEPAGE IMAGE CARDS
+=================================== */
+
+.quick-links {
+
+    padding: 80px 10%;
+
+    background-image:
+        linear-gradient(
+            rgba(255,255,255,0.45),
+            rgba(255,255,255,0.45)
+        ),
+        url("/html/school website/img/pexels-andreea-ch-371539-1166644.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+    text-align: center;
+}
+
+.quick-links h2 {
+
+    color: #0A4D9C;
+
+    font-size: 40px;
+
+    margin-bottom: 50px;
+}
+
+.card-container {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 30px;
+}
+
+.image-card {
+
+    width: 220px;
+
+    height: 260px;
+
+    overflow: hidden;
+
+    border-radius: 20px;
+
+    position: relative;
+
+    text-decoration: none;
+
+    box-shadow:
+        0 8px 25px rgba(0,0,0,0.15);
+
+    transition: all 0.4s ease;
+}
+
+.image-card img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    transition:
+        transform 0.6s ease;
+}
+
+/* Hover Effect */
+
+.image-card:hover {
+
+    transform:
+        translateY(-10px);
+
+    box-shadow:
+        0 20px 40px rgba(0,0,0,0.25);
+}
+
+.image-card:hover img {
+
+    transform:
+        scale(1.12);
+}
+
+.card-title {
+
+    position: absolute;
+
+    bottom: 0;
+
+    width: 100%;
+
+    padding: 15px;
+
+    background:
+        rgba(10,77,156,0.85);
+
+    color: white;
+
+    font-weight: bold;
+
+    font-size: 18px;
+
+    text-align: center;
+
+    backdrop-filter: blur(5px);
+}
+/* ===================================
+   ULTRA MODERN FOOTER
+=================================== */
+
+/* ===================================
+   MODERN CURVED FOOTER
+=================================== */
+
+.modern-footer {
+
+    background: linear-gradient(
+        135deg,
+        #0A4D9C,
+        #001F54
+    );
+
+    color: white;
+
+    margin-top: 60px;
+
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+    overflow: hidden;
+
+    padding-top: 20px;
+}
+
+/* Footer Content */
+
+.footer-content {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(180px, 1fr));
+
+    gap: 20px;
+
+    padding: 25px 40px;
+}
+
+/* Smaller Headings */
+
+.footer-section h2,
+.footer-section h3 {
+
+    margin-bottom: 10px;
+
+    font-size: 18px;
+}
+
+/* Smaller Text */
+
+.footer-section p,
+.footer-section a {
+
+    font-size: 14px;
+
+    line-height: 1.5;
+}
+
+/* Links */
+
+.footer-section ul {
+
+    list-style: none;
+
+    padding: 0;
+}
+
+.footer-section ul li {
+
+    margin-bottom: 6px;
+}
+
+.footer-section ul li a {
+
+    color: rgba(255,255,255,0.85);
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+
+    color: rgb(255, 255, 255);
+
+    padding-left: 5px;
+}
+
+/* Compact Social Icons */
+
+.social-icons {
+
+    display: flex;
+
+    gap: 10px;
+}
+
+.social-icons a {
+
+    width: 38px;
+    height: 38px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(255,255,255,0.15);
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+
+    transform: translateY(-4px);
+
+    background: rgba(255,255,255,0.25);
+}
+
+/* Bottom Bar */
+
+.footer-bottom {
+
+    text-align: center;
+
+    padding: 12px;
+
+    border-top: 1px solid rgba(255,255,255,0.15);
+}
+
+.footer-bottom p {
+
+    margin: 0;
+
+    font-size: 13px;
+}
+/* ===================================
+   ABOUT PAGE FLOATING CARDS
+=================================== */
+
+.about-cards {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+
+    padding: 60px;
+}
+
+.about-card {
+
+    width: 320px;
+
+    background: white;
+
+    border-radius: 25px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.12);
+
+    transition: all 0.4s ease;
+
+    text-align: center;
+}
+
+.about-card:hover {
+
+    transform:
+        translateY(-10px);
+
+    box-shadow:
+        0 20px 40px rgba(0,0,0,0.18);
+}
+
+.about-card img {
+
+    width: 100%;
+
+    height: 220px;
+
+    object-fit: cover;
+
+    transition: 0.5s ease;
+}
+
+.about-card:hover img {
+
+    transform: scale(1.08);
+}
+
+.about-card h3 {
+
+    color: #0A4D9C;
+
+    margin-top: 20px;
+}
+
+.about-card p {
+
+    padding: 15px 20px 25px;
+
+    line-height: 1.6;
+
+    color: #555;
+}
+/* ===================================
+   ADMISSIONS PAGE
+=================================== */
+/* ===================================
+   MODERN ADMISSIONS HERO
+=================================== */
+
+.admissions-hero {
+
+    width: 90%;
+
+    max-width: 1400px;
+
+    height: 450px;
+
+    margin: 50px auto;
+
+    border-radius: 40px;
+
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.45),
+            rgba(0,0,0,0.45)
+        ),
+        url("../school website/img/WhatsApp\ Image\ 2026-05-30\ at\ 03.03.24.jpeg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    color: white;
+
+    box-shadow:
+        0 15px 40px rgba(0,0,0,0.25);
+
+    overflow: hidden;
+}
+
+.admissions-section {
+
+    padding: 60px 10%;
+
+    text-align: center;
+}
+
+.admission-cards {
+
+    display: flex;
+
+    gap: 25px;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    margin-top: 40px;
+}
+
+.admission-card {
+
+    width: 280px;
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,0.1);
+
+    transition: 0.4s ease;
+}
+
+.admission-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 18px 35px rgba(0,0,0,0.15);
+}
+
+.admission-card h3 {
+
+    color: #0A4D9C;
+}
+
+.application-process {
+
+    padding: 80px 10%;
+
+    text-align: center;
+}
+
+.steps {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+
+    margin-top: 40px;
+}
+
+.step {
+
+    width: 220px;
+
+    background: #ffffff;
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,0.08);
+}
+
+.step span {
+
+    width: 60px;
+
+    height: 60px;
+
+    border-radius: 50%;
+
+    background: #0A4D9C;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin: 0 auto 15px;
+
+    font-size: 24px;
+
+    font-weight: bold;
+}
+
+.admission-cta {
+
+    text-align: center;
+
+    padding: 80px 20px;
+
+    background: #f8f9fa;
+}
+
+.admission-cta button {
+
+    background: #0A4D9C;
+
+    color: white;
+
+    border: none;
+
+    padding: 15px 35px;
+
+    border-radius: 30px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.admission-cta button:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 10px 20px rgba(10,77,156,0.3);
+}
+
+
+/* ===================================
+   GALLERY PAGE BACKGROUND
+=================================== */
+
+.gallery-page {
+
+    background-image:
+        linear-gradient(
+            rgba(255,255,255,0.88),
+            rgba(255,255,255,0.88)
+        ),
+        url("../school website/img/WhatsApp\ Image\ 2026-05-30\ at\ 03.06.55.jpeg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+    min-height: 100vh;
+}
+
+/* ===================================
+   GALLERY HERO
+=================================== */
+
+.gallery-hero {
+
+    width: 90%;
+
+    max-width: 1400px;
+
+    height: 420px;
+
+    margin: 40px auto;
+
+    border-radius: 50px;
+
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.45),
+            rgba(0,0,0,0.45)
+        ),
+        url("../school website/img/Gemini_Generated_Image_w4tfbvw4tfbvw4tf.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    color: white;
+
+    box-shadow:
+        0 15px 40px rgba(0,0,0,0.25);
+}
+
+.gallery-hero h1 {
+
+    font-size: 4rem;
+
+    margin-bottom: 20px;
+}
+
+.gallery-hero p {
+
+    width: 70%;
+
+    max-width: 800px;
+
+    font-size: 1.2rem;
+
+    line-height: 1.8;
+}
+
+/* ===================================
+   GALLERY GRID
+=================================== */
+
+.gallery-container {
+
+    width: 90%;
+
+    max-width: 1400px;
+
+    margin: 60px auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit,
+        minmax(320px,1fr));
+
+    gap: 30px;
+}
+
+/* ===================================
+   GALLERY CARD
+=================================== */
+
+.gallery-card {
+
+    background: white;
+
+    border-radius: 30px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.15);
+
+    transition: all 0.5s ease;
+}
+
+.gallery-card:hover {
+
+    transform:
+        translateY(-10px);
+
+    box-shadow:
+        0 20px 40px rgba(0,0,0,0.25);
+}
+
+.gallery-card img {
+
+    width: 100%;
+
+    height: 260px;
+
+    object-fit: cover;
+
+    transition: transform 0.6s ease;
+}
+
+.gallery-card:hover img {
+
+    transform: scale(1.12);
+}
+
+.gallery-caption {
+
+    padding: 20px;
+
+    text-align: center;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    color: #0A4D9C;
+}
+/* ===================================
+   CONTACT PAGE BACKGROUND
+=================================== */
+
+.contact-page {
+
+    background-image:
+        linear-gradient(
+            rgba(255,255,255,0.88),
+            rgba(255,255,255,0.88)
+        ),
+        url("../school website/img/WhatsApp\ Image\ 2026-05-30\ at\ 03.06.55.jpeg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+    min-height: 100vh;
+}
+
+/* ===================================
+   CONTACT HERO
+=================================== */
+
+.contact-hero {
+
+    width: 90%;
+
+    max-width: 1400px;
+
+    height: 420px;
+
+    margin: 40px auto;
+
+    border-radius: 50px;
+
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.45),
+            rgba(0,0,0,0.45)
+        ),
+        url("../school\ website/img/contact-hero.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    color: white;
+
+    box-shadow:
+        0 15px 40px rgba(0,0,0,0.25);
+}
+
+.contact-hero h1 {
+
+    font-size: 4rem;
+
+    margin-bottom: 20px;
+}
+
+.contact-hero p {
+
+    width: 70%;
+
+    max-width: 800px;
+
+    font-size: 1.2rem;
+
+    line-height: 1.8;
+}
+
+/* ===================================
+   CONTACT INFO CARDS
+=================================== */
+
+.contact-info {
+
+    width: 90%;
+
+    max-width: 1300px;
+
+    margin: 60px auto;
+
+    display: flex;
+
+    gap: 30px;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+.contact-card {
+
+    width: 300px;
+
+    background: white;
+
+    border-radius: 30px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,0.12);
+
+    transition: 0.4s ease;
+    
+}
+
+.contact-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 18px 35px rgba(0,0,0,0.18);
+}
+
+.contact-card h3 {
+
+    color: #0A4D9C;
+}
+
+/* ===================================
+   CONTACT FORM
+=================================== */
+
+.contact-form-section {
+
+    width: 90%;
+
+    max-width: 900px;
+
+    margin: 50px auto;
+}
+
+.contact-form-container {
+
+    background: rgba(255,255,255,0.92);
+
+    backdrop-filter: blur(10px);
+
+    border-radius: 40px;
+
+    padding: 40px;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.15);
+}
+
+.contact-form-container h2 {
+
+    text-align: center;
+
+    color: #0A4D9C;
+
+    margin-bottom: 30px;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+
+    width: 100%;
+
+    padding: 15px;
+
+    margin-bottom: 20px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 15px;
+
+    font-size: 16px;
+
+    box-sizing: border-box;
+    color: black;
+
+background-color: white;
+}
+.contact-form-container input::placeholder,
+.contact-form-container textarea::placeholder {
+
+    color: #777;
+}
+
+.contact-form-container button {
+
+    background: #0A4D9C;
+
+    color: white;
+
+    border: none;
+
+    padding: 15px 35px;
+
+    border-radius: 30px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    transition: 0.3s ease;
+}
+
+.contact-form-container button:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 10px 20px rgba(10,77,156,0.3);
+}
+/* ===================================
+   HOMEPAGE QUICK TABS
+=================================== */
+
+.quick-links-section {
+
+    margin-top: -40px;
+
+    position: relative;
+
+    z-index: 100;
+}
+
+.quick-links-container {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+}
+
+.quick-tab {
+
+    width: 90px;
+
+    background: white;
+
+    border-radius: 25px;
+
+    overflow: hidden;
+
+    text-decoration: none;
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,0.15);
+
+    transition: all 0.4s ease;
+}
+
+.quick-tab img {
+
+    width: 90%;
+
+    height: 70px;
+
+    object-fit: cover;
+
+    transition: transform 0.6s ease;
+}
+
+.quick-tab span {
+
+    display: block;
+
+    text-align: center;
+
+    padding: 15px;
+
+    color: #0A4D9C;
+
+    font-weight: bold;
+
+    font-size: 16px;
+}
+
+/* Hover Effect */
+
+.quick-tab:hover {
+
+    transform:
+        translateY(-10px)
+        scale(1.03);
+
+    box-shadow:
+        0 20px 40px rgba(0,0,0,0.25);
+}
+
+.quick-tab:hover img {
+
+    transform: scale(1.15);
+}
+/* ==========================
+   MODERN SOCIAL ICONS
+========================== */
+
+.social-icons {
+
+    display: flex;
+
+    gap: 15px;
+
+    margin-top: 15px;
+}
+
+.social-icons a {
+
+    width: 50px;
+
+    height: 50px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-decoration: none;
+
+    border-radius: 50%;
+
+    background: #ffffff;
+
+    color: #0A4D9C;
+
+    font-size: 22px;
+
+    box-shadow:
+        0 5px 15px rgba(0,0,0,0.2);
+
+    transition: all 0.4s ease;
+}
+
+.social-icons a:hover {
+
+    transform:
+        translateY(-5px)
+        scale(1.1);
+
+    background: #FFD700;
+
+    color: #0A4D9C;
+
+    box-shadow:
+        0 10px 25px rgba(255,215,0,0.4);
+}
+
+.index-page {
+
+    background-image:
+        linear-gradient(
+            rgba(255,255,255,0.85),
+            rgba(255,255,255,0.85)
+        ),
+        url("../school website/img/WhatsApp\ Image\ 2026-05-30\ at\ 03.03.14.jpeg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+}
